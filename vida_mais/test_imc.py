@@ -1,5 +1,5 @@
 import pytest
-from imc import *
+from vida_mais.imc import *
 
 def test_calculo_imc_valor_correto():
     # Teste se calcular_imc(70, 1.75) retorna 22.86

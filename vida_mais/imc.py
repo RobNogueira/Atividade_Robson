@@ -11,6 +11,7 @@ def classificar_imc(imc):
         return "Abaixo do peso"
     elif 18.5 <= imc < 25:
         return "Peso normal"
+    
     elif 25 <= imc < 30:
         return "Sobrepeso"
     elif 30 <= imc < 35:
